@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title></title>
+</head>
+<body>
+  <div id="container">
+    <h2>Employee Satisfaction Survey</h2>
+
+    <hr>
+  
+
+    <form action="">
+        
+      <div id="name_section"> 
+        <label for="Name">Name</label> <br>
+
+        <div id="nameContainer">
+          <div id="firstname">
+            <input type="text" name="firstname" id=""> <br>
+            <label for="fisrtname"> Fisrt Name</label>
+          </div>
+
+          <div id="lastname">   
+            <input type="text" name="lastname" id=""> <br>
+            <label for="lastname">Last Name</label>  
+          </div>
+        </div>  
+      </div>
+
+       <div id="dateContainer">
+         <div id="lastname2">
+          <label for="lastName">Last name</label> <br>
+          <input type="text" name="lastName" id="">
+         </div>
+         <div id="date"> 
+          <label for="date">Date</label> <br>
+          <input type="date" name="date" id="">
+         </div>
+       </div>
+
+       <div class="newField">
+        <label for="experience">What's your experience so far</label> <br>
+        <input type="radio" name="experience" id="experience" value="Neutral"> Neutral
+        <br>
+        <input type="radio" name="experience" id="experience" value="somewhat_dissatisfied"> Somewhat Dissatisfied
+        <br>
+        <input type="radio" name="experience" id="experience" value="very_dissatisfied"> Very Dissatisfied
+       </div>
+
+       <div class="newField">
+         <label for="valued">Do you feel valued at work</label> <br>
+         <input type="radio" name="valued" id="valued" value="Yes"> Yes
+         <br>
+         <input type="radio" name="valued" id="valued" value="No" checked="checked"> No 
+         <br><br>
+
+         <label for="if_no">if No, Please Explain</label> <br>
+         <textarea name="if_no" id="if_no" cols="50" rows="5" placeholder="Type here..."></textarea>
+       </div>
+
+       <div class="newField">
+        <label for="resources">Do you have the resources you need to perform your job well?</label> <br>
+        <input type="radio" name="resources" id="resources" value="Yes"> Yes
+        <br>
+        <input type="radio" name="resources" id="resources" value="No" checked="checked"> No 
+        <br>
+        <br>
+
+        <label for="if_no">if No, Please Explain</label> <br>
+        <textarea name="if_no" id="if_no" cols="50" rows="5" placeholder="Type here..."></textarea>
+      </div>
+
+      <div class="newField">
+        <label for="cause">Does your job cause you stress or anxiety?</label> <br>
+        <input type="radio" name="cause" id="cause" value="Yes" checked="checked"> Yes
+        <br>
+        <input type="radio" name="cause" id="cause" value="No"> No 
+        <br><br>
+
+        <label for="if_no">if No, Please Explain</label> <br>
+        <textarea name="if_no" id="if_no" cols="50" rows="5" placeholder="Type here..."></textarea>
+      </div>
+
+      <div class="newField">
+        <label for="efforts">Are sufficient efforts being made to solicit colleague opinions and feedback?</label> <br>
+        <input type="radio" name="efforts" id="efforts" value="Yes" checked="checked"> Yes
+        <br>
+        <input type="radio" name="efforts" id="efforts" value="No"> No 
+        <br><br>
+
+        <label for="if_no">if No, Please Explain</label> <br>
+        <textarea name="if_no" id="if_no" cols="50" rows="5" placeholder="Type here..."></textarea>
+      </div>
+
+      <div class="newField">
+        <label for="if_no">Please Provide Any Additional Feedback</label> <br>
+        <textarea name="if_no" id="if_no" cols="50" rows="5" placeholder="Type here..."></textarea>
+      </div>
+
+      <button type="submit">submit</button>
+    </form>
+
+  </div>
+  
+</body>
+</html>
